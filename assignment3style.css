@@ -1,0 +1,36 @@
+h1 {
+    color: red;
+    background-color: gold;
+}
+
+h2 {
+    color: greenyellow;
+    background-color: purple;
+}
+
+h3 {
+    color: orange;
+    background-color: black;
+}
+
+
+.info{
+    color: blue;
+}
+
+a:visited {
+    color: green;
+}
+
+a {
+    color: red;
+}
+
+
+a:hover {
+    color: yellow;
+} 
+
+.address{
+    color: pink;
+}
