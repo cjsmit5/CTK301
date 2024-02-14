@@ -1,0 +1,53 @@
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.poison {
+    background-color: aqua;
+    
+    
+}
+
+.fires {
+    color: blue;
+}
+
+.doctor {
+    color: orange;
+}
+
+#infernohead {
+    background-color: yellow;
+}
+
+#inferno {
+    color: red;
+}
+
+.father {
+    color: yellow;
+    background-color: green;
+}
+
+.art {
+    background-color: lightgreen;
+}
+
+.daughter {
+    background-color: yellow;
+}
+
+#doc {
+    color: red;
+}
+
+.im {
+    color: blue;
+    
+}
