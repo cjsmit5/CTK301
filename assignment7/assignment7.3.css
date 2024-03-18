@@ -1,0 +1,176 @@
+
+body {
+   
+    background-color: gray;
+
+}
+
+#wrapper {
+    margin: 1em auto;
+    padding: 0;
+    width: 960px;
+    border: 5px solid darkblue;
+    background-color: red;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  header {
+    grid-column: span 12;
+    font-weight: normal;
+  }
+
+.headlink{
+    display: block;
+    padding: 30px;
+    font-family: helvetica,sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    color: lightblue;
+    background-image: linear-gradient(to top, darkblue, rgb(81, 81, 211));
+    margin: 0;
+}
+
+.headlink:hover{
+    color: white;
+    background-image: linear-gradient(to bottom, darkblue, rgb(81, 81, 211));
+}
+
+
+nav {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    background-image: linear-gradient(to top, darkblue, rgb(81, 81, 211));
+    border-bottom: 5px solid darkblue;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 5px;
+    
+}
+
+nav li {
+    
+    display: inline-block;
+    border-right: solid darkblue;
+    
+}
+
+nav li a {
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    grid-row: span 9;
+    padding: 15px 50px 15px 40px;
+    font-family: helvetica,sans-serif;
+    text-decoration: none;
+    color: lightblue;
+    background-image: linear-gradient(to top, darkblue, rgb(81, 81, 211));
+}
+
+nav li a:hover {
+    color: white;
+    font-family: helvetica,sans-serif;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, darkblue, rgb(81, 81, 211));
+    
+}
+
+
+main {
+    grid-column: span 4;
+    background-color: white;
+    padding: 25px;
+    padding-top: 10px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+#barbie {
+    border-bottom: solid rgb(16, 16, 173);
+    color: rgb(16, 16, 173);
+    padding-bottom: 10px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main img {
+    width: 275px;
+}
+
+#Ken {
+    border-bottom: solid rgb(16, 16, 173);
+    color: rgb(16, 16, 173);
+    padding-bottom: 10px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+aside {
+    grid-column: span 4;
+    background-color: white;
+    padding: 25px;
+    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+aside img {
+    width: 275px;
+    
+  }
+
+aside a {
+    color: red;
+    text-decoration: none;
+
+}
+
+#about {
+    border-bottom: solid rgb(16, 16, 173);
+    color: rgb(16, 16, 173);
+    padding-bottom: 10px;
+    font-weight: normal;
+}
+
+.Allan { 
+    grid-column: span 4;
+    background-color: white;
+    padding: 25px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Allan {
+    border-bottom: solid rgb(16, 16, 173);
+    color: rgb(16, 16, 173);
+    padding-bottom: 10px;
+    font-weight: normal;
+}
+
+#para {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Allan a {
+    color: red;
+    text-decoration: none;
+}
+
+.Allan img {
+    width: 275px;
+}
+
+footer {
+    grid-column: span 12;
+    border-top: 5px solid rgb(16, 16, 173);
+}
+
+
+footer img {
+    grid-column: span 12;
+    background-color: red;
+    padding: 10px;
+}
