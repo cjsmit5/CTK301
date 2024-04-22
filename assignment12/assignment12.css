@@ -1,0 +1,44 @@
+body {
+    background-color: #999999;
+    background-image: url(Space2.jpg);
+}
+
+#wrapper {
+    color: yellow;
+    text-justify: center;
+    margin: 24px auto;
+    width: 1200px;
+    border: 1px solid yellow;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+    background-image: url(Space2.jpg);
+}
+  
+h1{
+    grid-column: span 12;
+    text-align: center;
+}
+  #myCarousel {
+    margin-bottom: 24px;
+  }
+  
+  #myCarousel .f-carousel__slide {
+    text-align: center;
+    padding: 24px;
+    background-image: url(Space2.jpg);
+    border: solid yellow;
+  }
+
+  
+
+  #slides img {
+    height: 200px;
+    width: 300px;
+  }
+
+ #myCarousel img {
+    height: 200px;
+    width: 300px;
+  }
