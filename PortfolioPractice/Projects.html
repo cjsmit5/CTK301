@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projects</title>
+    <link rel="stylesheet" href="Projects.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+</head>
+<body>
+    <header>
+        <h1>Projects</h1>
+        <nav>
+            <ul>
+                <li><a href="Main.html">Home</a></li>
+                <li><a href="Projects.html">Projects</a></li>
+                <li><a href="About.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="project-carousel">
+            <a href="Chibi Ahri.jpg" data-fancybox="project-gallery" data-caption="Chibi Fan Art">
+                <img src="Chibi Ahri.jpg" alt="Chibi Art">
+            </a>
+            <a href="Spaceship Sketch.jpg" data-fancybox="project-gallery" data-caption="Spaceship Sketch">
+                <img src="Spaceship Sketch.jpg" alt="Spaceship Sketch">
+            </a>
+            <a href="QuickCourts3.jpg" data-fancybox="project-gallery" data-caption="People playing a game I helped create called Quick Courts.">
+                <img src="QuickCourts3.jpg" alt="QuickCourts3">
+            </a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+        $(document).ready(function() {
+            Fancybox.bind("[data-fancybox]", {});
+        });
+    </script>
+</body>
+</html>
